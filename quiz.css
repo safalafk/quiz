@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('pexels-leeloothefirst-5428830.jpg'); /* replace with your image file name */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* keeps image in place */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  background: rgba(255, 255, 255, 0); /* ↓ changed from 0.8 to 0.5 */
+  padding: 30px;
+  border-radius: 50px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 25px rgba(126, 6, 6, 0.25);
+  backdrop-filter: blur(25px); /* glass effect */
+  text-align: center;
+}
+
+
+
+#options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #150a0a;
+}
+
+#options button:hover {
+  background-color: #3b73e4;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background: #54677b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#timer {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ff3e3e;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
